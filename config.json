@@ -1,6 +1,22 @@
 {
-    "default_server_name": "matrix.org",
+    "default_server_config" : {
+        "m.homeserver": {
+            "base_url": "https://matrix-client.matrix.org"
+        },
+        "m.identity_server": {
+            "base_url": "https://vector.im"
+        },
+        "server_name": "Matrix.org"
+    },
+    "showLabsSettings": true,
     "brand": "Asozialer Chat",
+    "branding": {
+        "welcomeBackgroundUrl": "https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/kangaroo_bg.png",
+        "authHeaderLogoUrl": "https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/WebsiteIcon.svg",
+        "authFooterLinks": [
+            {"Für die Asozialen dieser Welt.": "https://github.com/asozialesnetzwerk"}
+        ]
+    },
     "integrations_ui_url": "https://scalar-staging.vector.im/",
     "integrations_rest_url": "https://scalar-staging.vector.im/api",
     "integrations_widgets_urls": [
@@ -13,11 +29,7 @@
     "hosting_signup_link": "https://element.io/matrix-services?utm_source=element-web&utm_medium=web",
     "bug_report_endpoint_url": "https://element.io/bugreports/submit",
     "showLabsSettings": true,
-    "piwik": {
-        "url": "https://piwik.riot.im/",
-        "siteId": 1,
-        "policyUrl": "https://element.io/cookie-policy"
-    },
+    "piwik": false,
     "roomDirectory": {
         "servers": [
             "matrix.org",
@@ -46,9 +58,6 @@
     "enable_presence_by_hs_url": {
         "https://matrix.org": false,
         "https://matrix-client.matrix.org": false
-    },
-    "settingDefaults": {
-        "breadcrumbs": true
     },
     "jitsi": {
         "preferredDomain": "jitsi.riot.im"
