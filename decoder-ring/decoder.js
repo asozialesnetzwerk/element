@@ -114,7 +114,7 @@ function fetchAsSubject(endpoint) {
 /* ==== React stuff ==== */
 /* ===================== */
 /* Rather than importing an entire build infrastructure, for now we just use React without JSX */
-const e = React.createElement;
+const e = React.createAsozialer Chat;
 
 /*
  * Provides user feedback given a FetchStatus object.
