@@ -82,8 +82,8 @@ For a good example, see https://develop.element.io/config.json.
    default homeserver when signing up or logging in.
 1. `permalinkPrefix`: Used to change the URL that Element generates permalinks with.
    By default, this is "https://matrix.to" to generate matrix.to (spec) permalinks.
-   Set this to your Riot instance URL if you run an unfederated server (eg:
-   "https://riot.example.org").
+   Set this to your Element instance URL if you run an unfederated server (eg:
+   "https://element.example.org").
 1. `jitsi`: Used to change the default conference options. Learn more about the
    Jitsi options at [jitsi.md](./jitsi.md).
     1. `preferredDomain`: The domain name of the preferred Jitsi instance. Defaults
@@ -110,6 +110,9 @@ For a good example, see https://develop.element.io/config.json.
    1. `logo`: An HTTP URL to the avatar for the desktop build. Should be 24x24, ideally
       an SVG.
    1. `url`: An HTTP URL for where to send the user to download the desktop build.
+1. `mobileGuideToast`: Whether to show a toast a startup which nudges users on
+   iOS and Android towards the native mobile apps. The toast redirects to the
+   mobile guide if they accept. Defaults to false.
 
 Note that `index.html` also has an og:image meta tag that is set to an image
 hosted on riot.im. This is the image used if links to your copy of Element
