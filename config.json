@@ -1,18 +1,16 @@
 {
     "default_server_config" : {
         "m.homeserver": {
-            "base_url": "https://matrix-client.matrix.org"
+            "base_url": "https://asozialer.club"
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
         },
-        "server_name": "Matrix.org"
+        "server_name": "Asozialer.club"
     },
     "showLabsSettings": true,
     "brand": "Asozialer Chat",
     "branding": {
-        "welcomeBackgroundUrl": "https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/kangaroo_bg.png",
-        "authHeaderLogoUrl": "https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/WebsiteIcon.svg",
         "authFooterLinks": [
             {"Für die Asozialen dieser Welt.": "https://github.com/asozialesnetzwerk"}
         ]
