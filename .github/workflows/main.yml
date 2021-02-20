@@ -4,10 +4,10 @@ on:
     # but only for the main branch
     push:
         branches:
-            - develop
+            - asozial
     pull_request:
         branches:
-            - develop
+            - asozial
 
 jobs:
     deploy:
@@ -29,13 +29,22 @@ jobs:
                   key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
                   restore-keys: ${{ runner.os }}-node-
 
+            - name: Download files
+              run: |
+                  curl https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/config.json > config.json
+                  curl https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/customize.sh > customize.sh
+                  chmod +x customize.sh
+
             - name: Build with yarn
               run: |
                   yarn install
-                  yarn build
+                  RIOT_OG_IMAGE_URL="WebsiteIcon.svg" yarn build
+
+            - name: Customize login page
+              run: ./customize.sh
 
             - name: Deploy
               uses: peaceiris/actions-gh-pages@v3
               with:
-                  eploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+                  deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
                   publish_dir: webapp
