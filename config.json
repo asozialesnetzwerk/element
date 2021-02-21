@@ -12,7 +12,7 @@
     "brand": "Asozialer Chat",
     "branding": {
         "authFooterLinks": [
-            {"text":"Für die Asozialen dieser Welt.", "url": "https://github.com/asozialesnetzwerk"}
+            {"text":"Für die Asozialen dieser Welt.","url": "https://github.com/asozialesnetzwerk"}
         ]
     },
     "integrations_ui_url": "https://scalar-staging.vector.im/",
@@ -59,6 +59,6 @@
         "https://matrix-client.matrix.org": false
     },
     "jitsi": {
-        "preferredDomain": "jitsi.riot.im"
+        "preferredDomain": "meet.roflcopter.fr/"
     }
 }
