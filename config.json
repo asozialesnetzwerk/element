@@ -12,7 +12,7 @@
     "brand": "Asozialer Chat",
     "branding": {
         "authFooterLinks": [
-            {"Für die Asozialen dieser Welt.": "https://github.com/asozialesnetzwerk"}
+            {"text":"Für die Asozialen dieser Welt.", "url": "https://github.com/asozialesnetzwerk"}
         ]
     },
     "integrations_ui_url": "https://scalar-staging.vector.im/",
@@ -30,6 +30,7 @@
     "piwik": false,
     "roomDirectory": {
         "servers": [
+            "asozialer.club",
             "matrix.org",
             "gitter.im"
         ]
