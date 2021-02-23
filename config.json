@@ -10,11 +10,6 @@
     },
     "showLabsSettings": true,
     "brand": "Asozialer Chat",
-    "branding": {
-        "authFooterLinks": [
-            {"text":"Für die Asozialen dieser Welt.","url": "https://github.com/asozialesnetzwerk"}
-        ]
-    },
     "integrations_ui_url": "https://scalar-staging.vector.im/",
     "integrations_rest_url": "https://scalar-staging.vector.im/api",
     "integrations_widgets_urls": [
