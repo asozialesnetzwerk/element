@@ -6,7 +6,7 @@
         },
         "m.identity_server": {
             "base_url": "https://vector.im"
-        },
+        }
     },
     "showLabsSettings": true,
     "brand": "Asozialer Chat",
