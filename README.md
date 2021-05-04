@@ -1,11 +1,13 @@
 Element
 =======
 
-Element (formerly known as Vector and Riot) is a Matrix web client built using the [Matrix
-React SDK](https://github.com/matrix-org/matrix-react-sdk).
+Element (früher bekannt als Vector und Riot) ist ein Matrix-Web-Client, der mit dem [Matrix
+React SDK](https://github.com/matrix-org/matrix-react-sdk) gebaut wurde.
+
+Auf [asozial.org/chat](https://asozial.org/chat) mit coolem design und asozialer.club als matrix server.
 
 Supported Environments
-======================
+=======
 
 Element has several tiers of support for different environments:
 
