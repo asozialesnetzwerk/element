@@ -31,7 +31,7 @@ jobs:
                   curl https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/customize-element.sh >> customize.sh
 
             - name: Fix Footer
-              run: curl https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/VectorAuthFooter.js > src/components/views/auth/VectorAuthFooter.js
+              run: curl https://raw.githubusercontent.com/asozialesnetzwerk/chat-configs/main/VectorAuthFooter.tsx > src/components/views/auth/VectorAuthFooter.tsx
               #easy way: run: sed -i 's|<a href="https://matrix.org" target="_blank" rel="noreferrer noopener">{ _t(.Powered by Matrix.) }</a>| |g' src/components/views/auth/VectorAuthFooter.js
 
             - name: Build with yarn
