@@ -4,7 +4,7 @@ Element
 Element (früher bekannt als Vector und Riot) ist ein Matrix-Web-Client, der mit dem [Matrix
 React SDK](https://github.com/matrix-org/matrix-react-sdk) gebaut wurde.
 
-Auf [asozial.org/chat](https://asozial.org/chat) mit coolem design und asozial.org als matrix server.
+Auf [asozial.org/chat](https://asozial.org/chat) mit coolem Design und asozial.org als Matrix-Server.
 
 Supported Environments
 =======
