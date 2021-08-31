@@ -33,7 +33,7 @@ const cssThemes = {
 
 function getActiveThemes() {
     // Default to `light` theme when the MATRIX_THEMES environment variable is not defined.
-    const theme = process.env.MATRIX_THEMES ?? 'light';
+    const theme = 'light';
     const themes = theme.split(',').filter(x => x).map(x => x.trim()).filter(x => x);
     return themes;
 }
