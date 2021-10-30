@@ -1,6 +1,6 @@
 {
-    "name": "Asozialer Chat",
-    "short_name": "Asozialer Chat",
+    "name": "Element",
+    "short_name": "Element",
     "display": "standalone",
     "theme_color": "#76CFA6",
     "start_url": "index.html",

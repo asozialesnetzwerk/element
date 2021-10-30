@@ -2052,7 +2052,7 @@
     "Learn more": "Dowiedz się więcej",
     "New? <a>Create account</a>": "Nowy(-a)? <a>Utwórz konto</a>",
     "New here? <a>Create an account</a>": "Nowy(-a)? <a>Utwórz konto</a>",
-    "You can use the custom server options to sign into other Matrix servers by specifying a different homeserver URL. This allows you to use Asozialer Chat with an existing Matrix account on a different homeserver.": "Możesz użyć własnych opcji serwera aby zalogować się na inny serwer Matrixa, określając inny adres URL serwera. To pozwala Ci na używanie Asozialer Chatu z użyciem istniejącego konta Matrixa na innym serwerze.",
+    "You can use the custom server options to sign into other Matrix servers by specifying a different homeserver URL. This allows you to use Element with an existing Matrix account on a different homeserver.": "Możesz użyć własnych opcji serwera aby zalogować się na inny serwer Matrixa, określając inny adres URL serwera. To pozwala Ci na używanie Elementu z użyciem istniejącego konta Matrixa na innym serwerze.",
     "Server Options": "Opcje serwera",
     "<b>Copy it</b> to your personal cloud storage": "<b>Skopiuj go</b> do osobistego dysku w chmurze",
     "Keep a copy of it somewhere secure, like a password manager or even a safe.": "Zachowaj jego kopię w bezpiecznym miejscu, np. w menedżerze haseł, czy nawet w sejfie.",
@@ -2189,7 +2189,7 @@
     "Unable to transfer call": "Nie udało się przekazać połączenia",
     "Unknown device": "Nieznane urządzenie",
     "You need to be using HTTPS to place a screen-sharing call.": "Musisz używać bezpiecznego protokołu HTTPS aby użyć połączenia współdzielenia ekranu.",
-    "Welcome to Asozialer Chat": "Witamy w Asozialer Chat",
+    "Welcome to Element": "Witamy w Element",
     "Decentralised, encrypted chat &amp; collaboration powered by [matrix]": "Zdecentralizowany, szyfrowany czat &amp; współpraca oparta na [matrix]",
     "The message from the parser is: %(message)s": "Wiadomość od parsera to: %(message)s",
     "Invalid JSON": "Błędny JSON",
@@ -2213,8 +2213,8 @@
     "Open": "Otwórz",
     "Your browser can't run %(brand)s": "Twoja przeglądarka nie obsługuje %(brand)s",
     "%(brand)s uses advanced browser features which aren't supported by your current browser.": "%(brand)s używa zaawansowanych funkcji przeglądarki, które nie są dostępne w twojej przeglądarce.",
-    "Your Asozialer Chat configuration contains invalid JSON. Please correct the problem and reload the page.": "Konfiguracja Asozialer Chata zawiera niepoprawny JSON. Popraw konfiguracje i odśwież stronę.",
-    "Your Asozialer Chat is misconfigured": "Asozialer Chat jest nieprawidłowo skonfigurowany",
+    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Konfiguracja Elementa zawiera niepoprawny JSON. Popraw konfiguracje i odśwież stronę.",
+    "Your Element is misconfigured": "Element jest nieprawidłowo skonfigurowany",
     "Powered by Matrix": "Zasilane przez Matrix",
     "Use %(brand)s on mobile": "Użyj %(brand)s w telefonie"
 }

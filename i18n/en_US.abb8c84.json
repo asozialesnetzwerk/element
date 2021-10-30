@@ -542,7 +542,7 @@
     "User Busy": "User Busy",
     "Unknown device": "Unknown device",
     "You need to be using HTTPS to place a screen-sharing call.": "You need to be using HTTPS to place a screen-sharing call.",
-    "Welcome to Asozialer Chat": "Welcome to Asozialer Chat",
+    "Welcome to Element": "Welcome to Element",
     "Decentralised, encrypted chat &amp; collaboration powered by [matrix]": "Decentralised, encrypted chat &amp; collaboration powered by [matrix]",
     "The message from the parser is: %(message)s": "The message from the parser is: %(message)s",
     "Invalid JSON": "Invalid JSON",
@@ -566,8 +566,8 @@
     "Open": "Open",
     "Download Completed": "Download Completed",
     "Unable to load config file: please refresh the page to try again.": "Unable to load config file: please refresh the page to try again.",
-    "Your Asozialer Chat configuration contains invalid JSON. Please correct the problem and reload the page.": "Your Asozialer Chat configuration contains invalid JSON. Please correct the problem and reload the page.",
-    "Your Asozialer Chat is misconfigured": "Your Asozialer Chat is misconfigured",
+    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.",
+    "Your Element is misconfigured": "Your Element is misconfigured",
     "Missing indexeddb worker script!": "Missing indexeddb worker script!",
     "Switch to space by number": "Switch to space by number"
 }

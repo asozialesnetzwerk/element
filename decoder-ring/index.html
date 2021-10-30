@@ -67,11 +67,11 @@
         <script type="text/javascript">
             document.addEventListener("DOMContentLoaded", () => {
                 try {
-                    ReactDOM.render(React.createAsozialer Chat(Decoder.BundlePicker), document.getAsozialer ChatById("main"))
+                    ReactDOM.render(React.createElement(Decoder.BundlePicker), document.getElementById("main"))
                 } catch (e) {
-                    const n = document.createAsozialer Chat("div");
+                    const n = document.createElement("div");
                     n.innerText = `Error starting: ${e.message}`;
-                    document.getAsozialer ChatById("main").appendChild(n);
+                    document.getElementById("main").appendChild(n);
                 }
             });
         </script>
